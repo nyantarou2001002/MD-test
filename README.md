@@ -17,5 +17,4 @@
 現在の日本の地方自治体の多くは税金の使い道が不透明で支配的です。そこでこの決算カードクラブでは自治体が作成、公開している「決算カード」を用いて使途を把握しみなさまの税金の使い道への理解を深めていただくことが目的です。
 
 
-[令和三年度決算カード府中市.pdf](https://github.com/user-attachments/files/17529340/default.pdf)
-
+![令和三年度決算カード府中市](https://github.com/user-attachments/assets/406dccd7-60c5-46cf-a2e3-75c4f35275ce)
