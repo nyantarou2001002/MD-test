@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>決算カード倶楽部</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-red-600 text-white py-6 shadow-lg">
+        <h1 class="text-center text-3xl font-bold">決算カード倶楽部</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto my-8 p-6 bg-white shadow-lg rounded-lg">
+        <h1 class="text-2xl font-semibold mb-4 text-gray-800">第２章 決算カードの読み方</h1>
+        <p class="mb-6">では最初に比較的財政の状況が良い自治体である東京都府中市の決算カードを見ていきましょう!!</p>
+
+        <img src="images/futyu.jpg" alt="府中市決算カードの画像" class="mb-6 mx-auto">
+
+        <h2 class="text-xl text-center mb-4 text-gray-700">令和3年度の府中市の決算カード</h2>
+
+        <!-- Table of Contents -->
+        <h3 class="text-lg font-semibold mb-2">目次</h3>
+        <ol class="list-decimal ml-6 mb-8 space-y-2 text-gray-600">
+            <li><a href="#revenue-section" class="text-blue-500 hover:underline">歳入の状況</a></li>
+            <li><a href="#tax-section" class="text-blue-500 hover:underline">市町村税の状況</a></li>
+            <li><a href="#expenditure-nature-section" class="text-blue-500 hover:underline">性質別歳出の状況</a></li>
+            <li><a href="#purpose-based-expenditure-section" class="text-blue-500 hover:underline">目的別歳出の状況</a></li>
+            <li><a href="#other-section" class="text-blue-500 hover:underline">その他</a></li>
+        </ol>
+
+        <!-- Revenue Section -->
+        <section id="revenue-section" class="mb-8">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">歳入の状況</h3>
+            <img src="images/futyu_part1.jpg" alt="">
+            <p class="mb-4 text-gray-600">まず区分の欄の「地方税」に注目してください。地方税の構成費が37.1%となっています。これは歳入全体に占める自主財源の割合を示しています。つまり府中市は歳入全体の約40%弱自分の自治体で賄っているということです。</p>
+            <p class="text-gray-600">次は区分の欄の「歳入合計」に注目してください。ここの決算額は140,931,324千円(約1400億円)となっておりこれはその年の歳入の合計額を示しております。そのため構成費は100%となっております。またこれを他の都市と比較することで年の規模の比較ができます。</p>
+        </section>
+
+        <!-- Municipality Tax Section -->
+        <section id="tax-section" class="mb-8">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">市町村税の状況</h3>
+            <img src="images/futyu_partt2.jpg" alt="">
+            <p class="mb-4 text-gray-600">この部分は先ほど確認した地方税の詳細です。ここの欄にある税金は自治体の権限で増減ができます。これを読むと軽自動車税(構成比0.4%)のように税に占める割合が低い税を発見することができます。</p>
+            <ul class="list-disc ml-6 space-y-2 text-gray-600">
+                <li><strong>個人均等割</strong>は、日本の住民税の一部で、全ての住民に対して一律で課される税金です。</li>
+                <li><strong>法人均等割</strong>は、日本における法人住民税の一部で、法人の規模や所在地に応じて一定額が課される税金です。</li>
+                <li><strong>法人税割</strong>は、日本の法人住民税の一部で、法人の所得（利益）に対して課される税金です。</li>
+            </ul>
+        </section>
+
+        <!-- Expenditure by Nature Section -->
+        <section id="expenditure-nature-section" class="mb-8">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">性質別歳出の状況</h3>
+            <img src="images/futyu_part3.jpg" alt="">
+            <p class="mb-4 text-gray-600">この部分から自治体が何にいくら使っているかがわかります。</p>
+            <ul class="list-disc ml-6 space-y-2 text-gray-600">
+                <li><strong>物件費</strong>は施設の光熱水費や消耗品費などの費用なので倹約したり安い消耗品を使うことによって削減できます。</li>
+                <li><strong>積立金</strong>は各基金への積立金でただ貯金しているだけなので一番削減しやすいです。</li>
+                <li><strong>普通建設事業費の「うち単独」</strong>に関して建設事業は投資的経費や普通建設事業費の「うち補助」も同様の事業は行なっていますがこの二つは国からの補助金をもとに事業をおこしているので自治体の独断では削減したりすることは難しいです。</li>
+            </ul>
+        </section>
+
+        <!-- Purpose-based Expenditure Section -->
+        <section id="purpose-based-expenditure-section" class="mb-8">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">目的別歳出の状況</h3>
+            <img src="images/futyu_part4.jpg" alt="">
+            <p class="mb-4 text-gray-600">ここではその自治体のどこの課が予算を使っているのかがわかります。例えば民生費の額が多いことから福祉政策に多くの予算を使っていることがわかり、つまり削減する余地が大きいということがわかります。</p>
+            <p class="text-gray-600">またここに表示されている決算額は時価を含むものも多いため決算額は参考程度でどこがたくさん使っているかがなんとなく分ければOKです。</p>
+        </section>
+
+        <!-- Other Information Section -->
+        <section id="other-section" class="mb-8">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">その他</h3>
+            <img src="images/futyu_part5.jpeg" alt="">
+            <p class="mb-4 text-gray-600"><strong>積立金現在高</strong>に関して、財調の欄にあるのは財政調整基金でありこれは先ほどの性質別歳出の状況で見た積立金が貯まっておりますのでつまり余っていますので非常に削減しやすいです。</p>
+            <p class="mb-4 text-gray-600"><em>*ここで削減したら東日本大震災や金沢での地震のような大災害が起こったら対応できないではないかとの意見があるかもしれませんが実際に震災が起こった際は財政調整基金をはるかに超える額が給付されているので大丈夫です。</em></p>
+            <p class="text-gray-600">次は特定目的の欄に関してこれは主に特定の目的、例えば古くなった学校の校舎の改修に使われるために貯蓄されているとされていますが、目的の正当性は吟味する必要があるでしょう。例えば校舎の改修に関してはそもそも子供の数が少子高齢化によって校舎を建てた時代よりも大幅に減っていることを考えれば予算の削減の余地は大幅にあるでしょう。</p>
+            <p class="text-gray-600">その下の<strong>地方債現在高</strong>とはその自治体が現在背負っている借金のことです。つまり減らしていくことが望ましいでしょう。</p>
+            <p class="text-gray-600">最後の<strong>債務負担行為額</strong>には注意が必要です。債務負担行為額とは隠れ借金とも呼ばれており事実上の借金と同じです。ここで問題になるの地方債現在高とは違い一見借金とは見れないので自治体の中には地方債現在高を債務負担行為額に繰り替えて借金をなくした実績としてアピールする人もいます。</p>
+        </section>
+
+    </main>
+
+    <!-- Navigation Buttons -->
+    <div class="max-w-4xl mx-auto flex justify-between mt-4">
+        <a href="concept.html" class="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-200"><< 前へ</a>
+        <a href="last.html" class="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-200">次へ >></a>
+    </div>
+</body>
+
+</html>
